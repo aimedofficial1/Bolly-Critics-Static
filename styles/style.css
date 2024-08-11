@@ -54,9 +54,6 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* temporary */
-  border: 1px solid red;
 }
 
 .banner-wrapper {
@@ -65,10 +62,58 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
 }
+
+/* colors */
+/*
+* hex color -> #12(red)20(green)56(blue) #122056 ff
+* rgb -> rgb(red, green, blue) rgb(50, 60, 70) 
+* rgba -> rgba(red, green, blue, alpha) alpha (.5) 0, 1
+
+*/
 
 .banner-wrapper .banner_text_section {
   width: 700px;
+  color: rgb(255, 255, 255);
+}
+
+.banner_text_section h4,
+h1,
+p {
+  text-align: center;
+}
+
+.banner_text_section h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.banner_text_section h1 {
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 2;
+  color: #4ade80;
+}
+
+.banner_text_section p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.banner-bottom-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Start button style */
+.start_btn {
+  border: none;
+  outline: none;
+  background: #4a00ff;
+  padding: 16px 24px;
   color: #fff;
+  font-weight: 500;
+  border-radius: 44px;
+  float: left;
 }
