@@ -188,3 +188,74 @@ p {
   color: #fff;
   font-weight: 500;
 }
+
+/* About section */
+.about-section {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section p {
+  text-align: left;
+}
+
+.about-section .aboutBtn {
+  text-decoration: none;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  padding: 16px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+
+.about-section .aboutBtn:hover {
+  color: #fff;
+  background-color: var(--blue);
+}
+
+/* Support section */
+.support-form-wrapper {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form-controll {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-controll label {
+  font-size: 14px;
+}
+.form-controll input,
+textarea {
+  border: 1px solid rgb(164, 164, 164);
+  outline: none;
+  padding: 8px;
+  width: 664px;
+  border-radius: 8px;
+}
+
+.form-controll textarea {
+  height: 150px;
+  resize: none;
+}
+
+.support-form button {
+  color: #fff;
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
