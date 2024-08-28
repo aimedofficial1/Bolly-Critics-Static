@@ -259,3 +259,35 @@ textarea {
   font-weight: 500;
   transition: all 0.5s;
 }
+
+/* Footer */
+.footer {
+  border-top: 1px solid rgb(164, 164, 164);
+  padding: 20px 16px;
+}
+.footer-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-head h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.footer-head h4 {
+  font-weight: 400;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  font-size: 24px;
+}
